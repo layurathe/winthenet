@@ -1,0 +1,58 @@
+@font-face {
+    font-family: GaisyrRI;
+    src: url('fonts/GaisyrRI.otf');
+}
+@font-face {
+    font-family: VisueltI;
+    src: url('fonts/VisueltI.otf');
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr 20px);
+    grid-template-rows: repeat(10, 1fr 20px);
+}
+
+.title {
+    font-family: GaisyrRI;
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.howto {
+    font-size: 90px;
+}
+
+.thumb {
+    width: 300px;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.thumbimg {
+    width:520px;
+}
+
+.crossimg {
+    width: 2000px;
+}
+
+.cross {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.subtitle {
+    font-family: VisueltI;
+    font-size: 25px;
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
