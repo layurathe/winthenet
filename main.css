@@ -80,9 +80,14 @@ body {
     z-index: 1;
 }
 
-/* .burst2 {
-    grid
-} */
+.burst2 {
+    grid-column-start: 12;
+    grid-column-end: 18;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* z-index: 3; */
+
+}
 
 
 .doc {
