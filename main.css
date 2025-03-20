@@ -85,8 +85,9 @@ body {
     grid-column-end: 18;
     grid-row-start: 1;
     grid-row-end: 3;
-    /* z-index: 3; */
-
+    position: absolute;
+    top: 50%;
+    font-family: Faster;
 }
 
 
@@ -96,6 +97,16 @@ body {
     grid-column-end: 10;
     position: absolute;
     top: 15%;
+    left: 23%;
+    font-size: 30px;
+}
+
+.buynow {
+    z-index: 2;
+    grid-column-start: 10;
+    grid-column-end: 10;
+    position: absolute;
+    top: 22%;
     left: 23%;
     font-size: 30px;
 }
