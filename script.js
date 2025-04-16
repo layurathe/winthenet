@@ -35,4 +35,6 @@ function displayTextInOrder() {
 
 setTimeout(function() {
     displayTextInOrder();
-}, 20000);
+}, 300);
+
+console.log("Welcome to Internet Success 101!");
