@@ -36,14 +36,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin: 0;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    grid-template-columns: repeat(10, 1fr 20px);
-    grid-template-rows: repeat(50, 1fr 20px);
-    position: relative;
+    /* grid-template-columns: repeat(10, 1fr 20px);
+    grid-template-rows: repeat(50, 1fr 20px); */
+    /* position: relative; */
+
 }
 
 
@@ -51,7 +53,7 @@ body {
     font-family: GaisyrRI;
     justify-content: center;
     font-size: 6.5vw;
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-left: 1%;
     /* margin-left: 20.3%; */
     /* grid-row-start: 1;
@@ -61,18 +63,16 @@ body {
 .thumb {
     /* width: 25vw; */
     justify-content: flex-start;
-    margin-left: -1%;
-    /* grid-column-start: 1;
-    grid-column-end: 10;
-    grid-row-start: 1;
-    grid-row-end: 20; */
+
 }
 
 .thumbimg {
-    width:43vw;
+    width:47vw;
+    margin-top: -3vw;
     /* grid-row-start: 1;
     grid-row-end: 20; */
 }
+
 
 .crossimg {
     width: 100vw;
@@ -81,7 +81,7 @@ body {
 
 .cross {
     justify-content: flex-end;
-    margin-left: -75vw;
+    margin-left: -78.6vw;
     /* grid-column-start: 1;
     grid-column-end: 17;
     grid-row-start: 1;
@@ -105,8 +105,8 @@ body {
      margin-left: 20px;
     position: absolute;
     */
-    margin-top: 3.5%;
-    margin-left: -18vw;
+    margin-top: 7vw;
+    margin-left: -23vw;
     justify-content: center;
     font-family: Faster;
     z-index: 1;
@@ -119,34 +119,55 @@ body {
     grid-row-end: 3; */
     /* position: absolute;
     top: 50%; */
-    margin-left: -18%;
-    margin-top: 20%;
+    margin-left: -18vw;
+    margin-top: 28vw;
     justify-content: center;
     font-family: Faster;
+}
+
+.burst3 {
+    justify-content: flex-start;
+    width: 45vw;
 }
 
 
 .doc {
     z-index: 2;
-    /* grid-column-start: 10;
-    grid-column-end: 10; */
-    position: absolute;
-    top: 15%;
-    left: 23%;
+    justify-content: center;
+    margin-top: -9vw;
+    margin-left: 4vw;
+    font-family: Faster;
     font-size: 30px;
 }
 
-.buynow {
-    z-index: 2;
-    /* grid-column-start: 10;
-    grid-column-end: 10; */
-    position: absolute;
-    top: 22%;
-    left: 23%;
-    font-size: 30px;
-}
+
 
 .marquee {
     height: 50px;
     background-color: lightsalmon;
+    width: 100vw;
+    
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: -140vw;
+    width: 100vw;
+    margin-right: 0;
+}
+
+.popup {
+    /* display: flex; */
+    align-self: flex-end;
+
+}
+.popup-img {
+    width: 25vw;
+}
+
+
+.buynow {
+
 }
