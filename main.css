@@ -20,6 +20,10 @@
     font-style: normal;
   }
 
+body {
+    display: flex;
+}
+
 .container-1 {
     height: 3rem;
     width: 100vw;
@@ -81,7 +85,7 @@ body {
 
 .cross {
     justify-content: flex-end;
-    margin-left: -78.6vw;
+    margin-left: -80vw;
     /* grid-column-start: 1;
     grid-column-end: 17;
     grid-row-start: 1;
@@ -119,8 +123,8 @@ body {
     grid-row-end: 3; */
     /* position: absolute;
     top: 50%; */
-    margin-left: -18vw;
-    margin-top: 15vw;
+    margin-left: -21vw;
+    margin-top: 18vw;
     justify-content: center;
     font-family: Faster;
     scale: 90%;
@@ -177,6 +181,31 @@ body {
 
 .group {
     width: 102vw;
-    margin-left: -21vw;
+    margin-left: -1vw;
     margin-top: 15vw;
+}
+
+.soldout {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 10vw;
+}
+
+.soldout-img {
+    align-self: center;
+    width: 80vw;
+}
+
+
+
+marquee {
+    height: 3rem;
+    width: 100vw;
+    margin-top: -10px;
+    margin-left: -10px;
+    background-color: salmon;
+    font-family: "Faster One";
+    font-size: 40px;
+    color: #A80000;
 }
