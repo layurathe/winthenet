@@ -120,10 +120,12 @@ body {
     /* position: absolute;
     top: 50%; */
     margin-left: -18vw;
-    margin-top: 28vw;
+    margin-top: 15vw;
     justify-content: center;
     font-family: Faster;
+    scale: 90%;
 }
+
 
 .burst3 {
     justify-content: flex-start;
@@ -169,5 +171,12 @@ body {
 
 
 .buynow {
+    margin-top: -15vw;
+    margin-left: 20vw;
+}
 
+.group {
+    width: 102vw;
+    margin-left: -21vw;
+    margin-top: 15vw;
 }
